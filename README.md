@@ -7,7 +7,7 @@ CSS plugin to make your site responsive.
 
 Paste this in your page's head:
 
-`<link rel="stylesheet" type="text/css" href="https://rawgit.com/cervgon/grid/master/grid.min.css">`
+`<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/cervgon/grid/master/grid.min.css">`
 
 
 ## Classes
@@ -39,10 +39,6 @@ e.g. `<div class="g1 gs1-2 gxs1-3"></div>`
 Type fraction from zero + **gm** + **fraction**.
 e.g. `<div class="g1 gs1-2 gxs1-3 gm1-4"></div>`
 
-### @media screen and (min-width: 35.5em)
-Type fraction from zero + **gm** + **fraction**.
-e.g. `<div class="g1 gs1-2 gxs1-3 gm1-4"></div>`
-
 ### @media screen and (min-width: 48em)
 Type fraction from zero + **gxm** + **fraction**.
 e.g. `<div class="g1 gs1-2 gxs1-3 gm1-4 gxm1-5"></div>`
@@ -52,7 +48,7 @@ Type fraction from zero + **gl** + **fraction**.
 e.g. `<div class="g1 gs1-2 gxs1-3 gm1-4 gxm1-5 gl1-6"></div>`
 
 ### @media screen and (min-width: 80em)
-Type fraction from zero + **gl** + **fraction**.
+Type fraction from zero + **gxl** + **fraction**.
 e.g. `<div class="g1 gs1-2 gxs1-3 gm1-4 gxm1-5 gl1-6 gxl1-7"></div>`
 
 
